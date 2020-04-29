@@ -8,7 +8,7 @@ new_array = []
 while
   row_index < src.count do
     element_index = 0
-    min_value = 100
+    min_value = []
     while element_index < src[row_index].count do
       if min_value > src [row_index][element_index]
         min_value = src [row_index][element_index]
